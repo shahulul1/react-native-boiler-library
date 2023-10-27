@@ -11,7 +11,7 @@ npm install react-native-boiler-library
 ## Usage
 
 ```js
-import { multiply } from 'react-native-boiler-library';
+import { multiply,subscribeForCloseButton,unSubscribeForCloseButton } from 'react-native-boiler-library';
 
 // ...
 
