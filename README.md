@@ -16,7 +16,19 @@ import { multiply } from 'react-native-boiler-library';
 // ...
 
 const result = await multiply(3, 7);
+
+ React.useEffect(() => {
+   subscribeForCloseButton("event", (data) => {
+      console.log("event triggered", data)
+    })
+    return ()=> {
+      unSubscribeForCloseButton("event")
+    }
+  }, [])
+
 ```
+
+
 
 ## Contributing
 
