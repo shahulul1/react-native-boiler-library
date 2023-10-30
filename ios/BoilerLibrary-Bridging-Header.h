@@ -6,7 +6,3 @@
 @interface BoilerLibrary : RCTEventEmitter <RCTBridgeModule>
 
 @end
-
-@interface EventEmtter
-
-@end

@@ -6,8 +6,7 @@
 //
 
 @available(iOS 13.0, *)
-@objc(EventEmitter)
-class EventEmitter: NSObject {
+class EventEmitter {
 
     /// Shared Instance.
     public static var sharedInstance = EventEmitter()
@@ -15,6 +14,7 @@ class EventEmitter: NSObject {
     // ReactNativeEventEmitter is instantiated by React Native with the bridge.
     private static var eventEmitter: BoilerLibrary!
 
+    private init() {}
 
     // When React Native instantiates the emitter it is registered here.
     func registerEventEmitter(eventEmitter: BoilerLibrary) {
