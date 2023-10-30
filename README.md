@@ -1,4 +1,4 @@
-# react_native_communitcation_swift-swiftUI
+# react-native-boiler-library
 
 created based on study purpose
 
