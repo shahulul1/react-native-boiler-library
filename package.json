@@ -1,6 +1,6 @@
 {
-  "name": "@shahulul/react-native-boiler-library",
-  "version": "0.1.0",
+  "name": "@shahulul1/react-native-boiler-library",
+  "version": "1.0.0",
   "description": "created based on study purpose",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -40,8 +40,7 @@
     "android"
   ],
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/shahulul1/react-native-boiler-library.git"
+    "url": "https://github.com/shahulul1/react-native-boiler-library.git"
   },
   "author": "Shahulul Faris <shahululfaris.p@experionglobal.com> (https://github.com/shahulul1)",
   "license": "MIT",
@@ -50,7 +49,7 @@
   },
   "homepage": "https://github.com/shahulul1/react-native-boiler-library#readme",
   "publishConfig": {
-    "@shahulul1:registry": "https://npm.pkg.github.com"
+    "@shahulul:registry":"https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
