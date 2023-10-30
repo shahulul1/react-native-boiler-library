@@ -47,7 +47,8 @@
   },
   "homepage": "https://github.com/shahulul1/react-native-boiler-library#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    // "registry": "https://registry.npmjs.org/"
+    "@shahulul1:registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
