@@ -1,6 +1,6 @@
 {
   "name": "@shahulul1/react-native-boiler-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "created based on study purpose",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -25,15 +25,6 @@
     "!**/__mocks__",
     "!**/.*"
   ],
-  "scripts": {
-    "example": "yarn workspace react-native-boiler-library-example",
-    "test": "jest",
-    "typecheck": "tsc --noEmit",
-    "lint": "eslint \"**/*.{js,ts,tsx}\"",
-    "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
-    "prepare": "bob build",
-    "release": "release-it"
-  },
   "keywords": [
     "react-native",
     "ios",
