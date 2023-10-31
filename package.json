@@ -40,7 +40,7 @@
     "android"
   ],
   "repository": {
-    "url": "https://github.com/shahulul1/react-native-boiler-library.git"
+    "url": "git+https://github.com/shahulul1/react-native-boiler-library.git"
   },
   "author": "Shahulul Faris <shahululfaris.p@experionglobal.com> (https://github.com/shahulul1)",
   "license": "MIT",
@@ -48,9 +48,6 @@
     "url": "https://github.com/shahulul1/react-native-boiler-library/issues"
   },
   "homepage": "https://github.com/shahulul1/react-native-boiler-library#readme",
-  "publishConfig": {
-    "@shahulul:registry":"https://npm.pkg.github.com"
-  },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.5.0",

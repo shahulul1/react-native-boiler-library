@@ -20,7 +20,7 @@ struct SampleDetailScreen: View {
                     NotificationCenter.default.post(name: NSNotification.Name("event"), object: nil)
                 }
                 Spacer()
-                Button("back") {
+                Button("Back Button") {
                     mode.wrappedValue.dismiss()
                 }
             }
